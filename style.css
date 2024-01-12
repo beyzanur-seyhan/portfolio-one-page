@@ -258,7 +258,7 @@ a {
 
   
 .table-field {
-  padding: 1.2rem 0.5rem !important;
+  padding: 0.9rem 0.5rem !important;
 }
 }
 
@@ -681,5 +681,13 @@ width: 95%;
 @media only screen and (max-width: 768px) {
   .bg-text:after {
     right: 0;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  .table-cell {
+    display: flex;
+    flex-direction: column;
+
   }
 }
