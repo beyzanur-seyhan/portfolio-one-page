@@ -255,6 +255,11 @@ a {
   .container-xl {
     max-width: 1440px;
   }
+
+  
+.table-field {
+  padding: 1.2rem 0.5rem !important;
+}
 }
 
 /* one page menu */
