@@ -40,7 +40,7 @@ CSS STRUCTURE:
   --bs-body-color: #333;
   --bs-body-color-rgb: 51, 51, 51;
 
-  --bs-primary: #fc4d44;
+  --bs-primary: #FF534A;
   --bs-primary-dark: #d33a32;
   --bs-secondary: #FDEEE9;
   --bs-black: #111;
@@ -255,11 +255,6 @@ a {
   .container-xl {
     max-width: 1440px;
   }
-
-  
-.table-field {
-  padding: 0.9rem 0.5rem !important;
-}
 }
 
 /* one page menu */
@@ -417,11 +412,6 @@ header {
   bottom: -4px;
   left: -5px;
 }
-
-
-.skill-chart li .chart-percentage.fifty-percent {
-  width: 50%; 
-  }
 .skill-chart li .chart-percentage.seventy-percent {
 width: 70%; 
 }
@@ -434,10 +424,6 @@ width: 80%;
 .skill-chart li .chart-percentage.ninety-percent {
 width: 90%; 
 }
-
-.skill-chart li .chart-percentage.sixty-percent {
-  width: 60%; 
-  }
 .skill-chart li .chart-percentage.ninety-five-percent {
 width: 95%; 
 }
@@ -681,13 +667,5 @@ width: 95%;
 @media only screen and (max-width: 768px) {
   .bg-text:after {
     right: 0;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 375px) {
-  .table-cell {
-    display: flex;
-    flex-direction: column;
-
   }
 }
