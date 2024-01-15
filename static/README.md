@@ -24,8 +24,6 @@ This project is my first project in the "Front-End Developer" Bootcamp program w
 
 This project is just a template and I have done the necessary editing.
 
-▶️ [Live Demo](https://beyzanur-seyhan.github.io/portfolio-one-page/) ▶ Check out how the project looks
-
 - The theme of this project is prepared before UI Kit template. ([Julia - One Page Portfolio HTML CSS Template](https://templatesjungle.gumroad.com/l/julia-onepage-portfolio))
 - Necessary actions have been made for a single page. (Home page)
 
@@ -43,10 +41,10 @@ Thanks to this study, I learned tools that I would never have thought of. These;
 - https://fonts.google.com/
 - https://icon-sets.iconify.design/
 
-
 ## Parts From The Project
 
 ### Full Page
+
 <br>
 <img src="https://github.com/beyzanur-seyhan/portfolio-one-page/blob/main/readme-files/full-page.gif?raw=true">
 <br><br>
