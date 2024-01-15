@@ -63,7 +63,7 @@ git clone https://github.com/beyzanur-seyhan/portfolio-one-page.git
 
 ## License
 
-[MIT License](https://github.com/beyzanur-seyhan/portfolio-one-page/blob/main/LICENSE)
+[MIT License](https://github.com/beyzanur-seyhan/portfolio-one-page/blob/static/static/LICENSE)
 
 ## Contact Me
 
