@@ -1,6 +1,6 @@
 # PORTFOLIO ONE PAGE 👩
 
-![View](https://raw.githubusercontent.com/beyzanur-seyhan/portfolio-one-page/main/readme-files/header.gif)
+![View](https://raw.githubusercontent.com/beyzanur-seyhan/portfolio-one-page/static/static/readme-files/header.gif)
 
 - [What I Learned](#what-i-learned)
 
