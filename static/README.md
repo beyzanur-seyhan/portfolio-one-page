@@ -46,22 +46,20 @@ Thanks to this study, I learned tools that I would never have thought of. These;
 ### Full Page
 
 <br>
-<img src="https://github.com/beyzanur-seyhan/portfolio-one-page/blob/main/readme-files/full-page.gif?raw=true">
+<img src="https://github.com/beyzanur-seyhan/portfolio-one-page/blob/static/static/readme-files/full-page.gif?raw=true">
 <br><br>
 
 ## Getting Started
 
 - Clone this repository with git clone
 
-![Clone-Repository](https://raw.githubusercontent.com/beyzanur-seyhan/portfolio-one-page/main/readme-files/clone-repo.png)
+![Clone-Repository](https://github.com/beyzanur-seyhan/portfolio-one-page/blob/static/static/readme-files/clone-repo.png?raw=true)
 
 <u>Type the following into the terminal:</u>
 
 ```
 git clone https://github.com/beyzanur-seyhan/portfolio-one-page.git
 ```
-
-- Or: <a href="https://github.com/beyzanur-seyhan/portfolio-one-page/refs/heads/main.zip" download="https://github.com/beyzanur-seyhan/portfolio-one-page/archive/refs/heads/main.zip">Download ZIP</a>
 
 ## License
 
