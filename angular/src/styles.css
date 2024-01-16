@@ -371,16 +371,7 @@ header {
 
 /* polygon */
 .polygon {
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% 20%,
-    100% 100%,
-    80% 100%,
-    20% 100%,
-    0 100%,
-    0% 20%
-  );
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
 }
 
 .aos-animate .polygon {
@@ -389,29 +380,11 @@ header {
 
 @keyframes polygon {
   0% {
-    clip-path: polygon(
-      0 0,
-      100% 0,
-      100% 20%,
-      100% 100%,
-      80% 100%,
-      20% 100%,
-      0 100%,
-      0% 20%
-    );
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
   }
 
   100% {
-    clip-path: polygon(
-      20% 0%,
-      80% 0%,
-      100% 20%,
-      100% 80%,
-      80% 100%,
-      20% 100%,
-      0% 80%,
-      0% 20%
-    );
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   }
 }
 
@@ -444,6 +417,20 @@ header {
 }
 
 /* Text Effects */
+.letter {
+  animation: 1s letterUp forwards;
+}
+
+@keyframes letterUp {
+  0% {
+    transform: translate3d(0, 1.2em, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .txt-fx {
   overflow: hidden;
   line-height: var(--heading-line-height);
@@ -477,26 +464,7 @@ header {
 }
 
 .aos-animate .txt-fx.fade-right .letter {
-  transform: translate3d(0, 0, 0);
   opacity: 1;
-}
-
-/* slide up */
-.txt-fx.slide-up .letter {
-  transform: translate3d(0, 1.2em, 0);
-  transition: transform 0.9s var(--easing);
-}
-
-.swiper-slide-active .txt-fx.slide-up .letter,
-.aos-animate .txt-fx.slide-up .letter {
-  transform: translate3d(0, 0, 0);
-}
-
-/* domino */
-.txt-fx.domino .letter {
-  transform-origin: 50% 0;
-  transform: rotateY(90deg);
-  transition: transform 0.9s var(--easing);
 }
 
 .swiper-slide-active .txt-fx.domino .letter,
@@ -532,6 +500,57 @@ header {
   color: #f1f1f1;
   z-index: -1;
 }
+
+/* Text Effects */
+.txt-fx {
+  overflow: hidden;
+  line-height: var(--heading-line-height);
+}
+.txt-fx.zoom {
+  overflow: visible;
+}
+
+.txt-fx .word {
+  overflow: hidden;
+  transform-origin: 0 100%;
+  display: inline-block;
+  /* line-height: 1em; */
+}
+.txt-fx .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  /* line-height: 1em; */
+}
+
+.txt-fx {
+  --delay: 50ms;
+  --easing: cubic-bezier(.5, 0, .53, 1);
+}
+
+/* fade right */
+.txt-fx.fade-right .letter {
+  transform: translate3d(-50px, 0, 0);
+  opacity: 0;
+  transition: transform 0.6s var(--easing), opacity 0.6s var(--easing);
+}
+
+.aos-animate .txt-fx.fade-right .letter {
+  opacity: 1;
+}
+
+/* slide up */
+.txt-fx.slide-up .letter {
+  transition: transform 0.9s var(--easing);
+}
+
+/* domino */
+.txt-fx.domino .letter {
+  transform-origin: 50% 0;
+  transform: rotateY(90deg);
+  transition: transform 0.9s var(--easing);
+}
+
+
 @media only screen and (max-width: 768px) {
   .bg-text:after {
     right: 0;
