@@ -1,1 +1,53 @@
-<p>portfolio works!</p>
+<section id="portfolio" class="py-md-5 bg-text" data-text="04">
+  <div class="section-header my-5" data-aos="fade-up">
+    <div class="row justify-content-center g-5">
+      <div class="col-lg-6">
+        <span class="text-muted text-uppercase">son yaptığım projeler</span>
+        <h2 class="display-1 txt-fx slide-up">Projelerim</h2>
+        <p>
+          Projelerimi inceleyerek, teknolojiye olan yaklaşımımı ve projelerime
+          kattığım değeri görebilirsiniz.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="swiper portfolio-Swiper portfolio-content py-md-4"
+    data-aos="fade-up"
+  >
+    <swiper-container
+      class="mySwiper"
+      pagination="true"
+      pagination-clickable="true"
+      space-between="30"
+      slides-per-view="3"
+    >
+      <swiper-slide *ngFor="let project of projectCard">
+        <div class="image-holder">
+          <a
+            href="https://github.com/beyzanur-seyhan/{{ project.link }}"
+            target="_blank"
+            title="portfolio details"
+            ><img
+              src="../../../assets/img/port-{{ project.imgName }}.svg"
+              alt="portfolio"
+              class="img-fluid"
+          /></a>
+        </div>
+        <div class="caption d-flex justify-content-between align-items-center">
+          <a
+            href="https://github.com/beyzanur-seyhan/{{ project.link }}"
+            target="_blank"
+            class="title"
+            >{{ project.title }}</a
+          >
+          <span
+            class="image-format bg-orange"
+            *ngFor="let language of project.languages"
+            >{{ language }}</span
+          >
+        </div>
+      </swiper-slide>
+    </swiper-container>
+  </div>
+</section>
