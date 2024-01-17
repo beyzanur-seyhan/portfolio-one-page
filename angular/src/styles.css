@@ -193,11 +193,6 @@ a {
   top: 8px;
 }
 
-header {
-  left: 0;
-  top: 0;
-}
-
 @media (max-width: 991px) {
   /* mobile menu */
   header {
@@ -416,14 +411,6 @@ header {
   .bg-text:after {
     right: 0;
   }
-}
-
-input[name="message"] {
-  height: 100%;
-}
-
-.form-message {
-  height: 100px;
 }
 
 .nav-link {
