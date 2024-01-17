@@ -1,6 +1,6 @@
 # PORTFOLIO ONE PAGE 👩
 
-![View](https://raw.githubusercontent.com/beyzanur-seyhan/portfolio-one-page/main/readme-files/header.gif)
+![View](https://raw.githubusercontent.com/beyzanur-seyhan/portfolio-one-page/static/static/readme-files/header.gif)
 
 - [What I Learned](#what-i-learned)
 
@@ -63,7 +63,7 @@ git clone https://github.com/beyzanur-seyhan/portfolio-one-page.git
 
 ## License
 
-[MIT License](https://github.com/beyzanur-seyhan/portfolio-one-page/blob/main/LICENSE)
+[MIT License](https://github.com/beyzanur-seyhan/portfolio-one-page/blob/static/static/LICENSE)
 
 ## Contact Me
 
