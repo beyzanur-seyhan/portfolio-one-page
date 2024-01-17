@@ -275,103 +275,18 @@ header {
   width: 95%;
 }
 
-/* slide in */
-.slide-in .swiper-slide .banner-content h2,
-.slide-in .swiper-slide .banner-content p,
-.slide-in .swiper-slide .banner-content .btn {
-  display: inline-block;
-  opacity: 0;
-  transform: translate3d(0, 50px, 0);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-.slide-in .swiper-slide .banner-content h2 {
-  transition-delay: 600ms;
-}
-
-.slide-in .swiper-slide .banner-content p {
-  transition-delay: 800ms;
-}
-
-.slide-in .swiper-slide .banner-content .btn {
-  transition-delay: 1000ms;
-}
-
-.slide-in .swiper-slide.swiper-slide-active .banner-content h2,
-.slide-in .swiper-slide.swiper-slide-active .banner-content p,
-.slide-in .swiper-slide.swiper-slide-active .banner-content .btn {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-
-/* swiper slide-clip */
-.slide-clip .swiper-slide .image-holder img {
-  transform: scale(1.2);
-  transition: transform 1s ease-in-out;
-}
-
-.slide-clip .swiper-slide.swiper-slide-active .image-holder img {
-  transform: scale(1);
-}
-
-.slide-clip .swiper-slide .image-holder {
-  clip-path: inset(100% 0 0 0);
-  display: block;
-}
-
-.slide-clip .swiper-slide.swiper-slide-active .image-holder {
-  animation: 1s slide-clip forwards;
-}
-
-.slide-clip .swiper-slide.swiper-slide-prev .image-holder,
-.slide-clip .swiper-slide.swiper-slide-next .image-holder {
-  animation: 1s slide-down;
-}
-
-@keyframes slide-clip {
-  0% {
-    clip-path: inset(100% 0 0 0);
-  }
-
-  100% {
-    clip-path: inset(0 0 0 0);
-  }
-}
-
-@keyframes slide-down {
-  0% {
-    clip-path: inset(0 0 0 0);
-  }
-
-  100% {
-    clip-path: inset(100% 0 0 0);
-  }
-}
-
-/* swipe animation */
-.swipe-up {
-  clip-path: inset(0 0 100% 0);
-  display: block;
-}
-
-.aos-animate .swipe-up {
-  animation: 1s swipe-up forwards;
-}
-
-/*.down-leave-active { animation: 1s down-leave; }*/
-@keyframes swipe-up {
-  0% {
-    clip-path: inset(0 0 100% 0);
-  }
-
-  100% {
-    clip-path: inset(0);
-  }
-}
-
 /* polygon */
 .polygon {
-  clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 20%,
+    100% 100%,
+    80% 100%,
+    20% 100%,
+    0 100%,
+    0% 20%
+  );
 }
 
 .aos-animate .polygon {
@@ -380,11 +295,29 @@ header {
 
 @keyframes polygon {
   0% {
-    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 20%,
+      100% 100%,
+      80% 100%,
+      20% 100%,
+      0 100%,
+      0% 20%
+    );
   }
 
   100% {
-    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    clip-path: polygon(
+      20% 0%,
+      80% 0%,
+      100% 20%,
+      100% 80%,
+      80% 100%,
+      20% 100%,
+      0% 80%,
+      0% 20%
+    );
   }
 }
 
@@ -405,15 +338,6 @@ header {
   100% {
     clip-path: inset(0% 0% 0% 0%);
   }
-}
-
-.swipe-up {
-  --delay: 0.05s;
-}
-
-.swipe-up {
-  animation-delay: 1s;
-  /* animation-delay: data(swipe-delay); */
 }
 
 /* Text Effects */
@@ -467,7 +391,7 @@ header {
   opacity: 1;
 }
 
-.swiper-slide-active .txt-fx.domino .letter,
+.txt-fx.domino .letter,
 .aos-animate .txt-fx.domino .letter {
   transform: rotateY(0);
 }
@@ -479,7 +403,7 @@ header {
   transition: transform 0.9s var(--easing);
 }
 
-.swiper-slide-active .txt-fx.zoom .letter,
+.txt-fx.zoom .letter,
 .aos-animate .txt-fx.zoom .letter {
   transform: scale(1);
 }
@@ -524,7 +448,7 @@ header {
 
 .txt-fx {
   --delay: 50ms;
-  --easing: cubic-bezier(.5, 0, .53, 1);
+  --easing: cubic-bezier(0.5, 0, 0.53, 1);
 }
 
 /* fade right */
@@ -550,7 +474,6 @@ header {
   transition: transform 0.9s var(--easing);
 }
 
-
 @media only screen and (max-width: 768px) {
   .bg-text:after {
     right: 0;
@@ -565,7 +488,7 @@ input[name="message"] {
   height: 100px;
 }
 
-.text-white .nav-link {
+.nav-link {
   --bs-nav-link-color: var(--bs-light);
   --bs-nav-link-hover-color: var(--bs-light);
   --bs-nav-link-active-color: var(--bs-light);
