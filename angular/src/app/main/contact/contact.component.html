@@ -22,10 +22,11 @@
               >
                 <th class="table-field">{{ contactInfo.title }}</th>
                 <td class="table-field">
-                  <span *ngIf="contactInfo.description">{{
+                  <span *ngIf="contactInfo.description" class="text-break">{{
                     contactInfo.description
                   }}</span>
                   <a
+                    class="text-break"
                     *ngIf="contactInfo.link"
                     href="{{
                       contactInfo.link.includes('info@')
