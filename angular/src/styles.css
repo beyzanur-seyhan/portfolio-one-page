@@ -239,42 +239,6 @@ header {
   }
 }
 
-/*----- Skills
---------------------------------------------------------------*/
-.skill-chart li {
-  width: 100%;
-  margin-bottom: 40px;
-  font-weight: 500;
-}
-.skill-chart li .chart-border {
-  border: 4px solid var(--bs-gray-200);
-  border-radius: 15px;
-  position: relative;
-}
-.skill-chart li .chart-percentage {
-  content: "";
-  border-bottom: 8px solid var(--bs-primary);
-  border-radius: 15px;
-  position: absolute;
-  bottom: -4px;
-  left: -5px;
-}
-.skill-chart li .chart-percentage.seventy-percent {
-  width: 70%;
-}
-.skill-chart li .chart-percentage.seventy-five-percent {
-  width: 75%;
-}
-.skill-chart li .chart-percentage.eighty-percent {
-  width: 80%;
-}
-.skill-chart li .chart-percentage.ninety-percent {
-  width: 90%;
-}
-.skill-chart li .chart-percentage.ninety-five-percent {
-  width: 95%;
-}
-
 /* polygon */
 .polygon {
   clip-path: polygon(
