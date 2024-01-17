@@ -2,13 +2,13 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-experience',
+  selector: 'app-tech-stack',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './experience.component.html',
-  styleUrl: './experience.component.css',
+  templateUrl: './tech-stack.component.html',
+  styleUrl: './tech-stack.component.css',
 })
-export class ExperienceComponent {
+export class TechStackComponent {
   selectPercent(percent: number): string {
     let computedPercent: string;
     switch (percent) {

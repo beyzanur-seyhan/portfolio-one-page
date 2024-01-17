@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ExperienceComponent } from './experience/experience.component';
+import { TechStackComponent } from './tech-stack/tech-stack.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 
@@ -11,7 +11,7 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     HomeComponent,
     AboutComponent,
-    ExperienceComponent,
+    TechStackComponent,
     PortfolioComponent,
     ContactComponent,
   ],

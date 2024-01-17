@@ -22,7 +22,7 @@ export class NavbarComponent {
       text: "Beni Tanıyın"
     },
     {
-      href: "experience",
+      href: "tech-stack",
       text: "Teknolojiler"
     },
     {
