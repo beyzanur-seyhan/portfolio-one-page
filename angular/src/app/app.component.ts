@@ -25,6 +25,11 @@ export class AppComponent implements OnInit {
     ]);
   }
 
+  toggleNavbar(event: Event) {
+    event.preventDefault();
+    document.querySelector('body')?.classList.toggle('nav-active');
+  }
+
   ngOnInit(): void {
     AOS.init({
       duration: 1200,
