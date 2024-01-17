@@ -21,6 +21,10 @@
       pagination-clickable="true"
       space-between="30"
       slides-per-view="3"
+      style="
+        --swiper-pagination-color: #ff534a;
+        --swiper-pagination-bottom: -7px;
+      "
     >
       <swiper-slide *ngFor="let project of projectCard">
         <div class="image-holder">
@@ -41,11 +45,13 @@
             class="title"
             >{{ project.title }}</a
           >
-          <span
-            class="image-format bg-orange"
-            *ngFor="let language of project.languages"
-            >{{ language }}</span
-          >
+          <div class="d-flex gap-2">
+            <span
+              class="image-format bg-orange"
+              *ngFor="let language of project.languages"
+              >{{ language }}</span
+            >
+          </div>
         </div>
       </swiper-slide>
     </swiper-container>
