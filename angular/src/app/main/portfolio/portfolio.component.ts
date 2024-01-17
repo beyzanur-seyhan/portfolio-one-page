@@ -10,7 +10,6 @@ register();
   standalone: true,
   imports: [CommonModule],
   templateUrl: './portfolio.component.html',
-  styleUrl: './portfolio.component.css',
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class PortfolioComponent {
