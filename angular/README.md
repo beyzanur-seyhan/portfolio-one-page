@@ -1,4 +1,16 @@
-# Angular
+# PORTFOLIO ONE PAGE - WITH ANGULAR
+
+## Used Languages Or Technologies 
+
+- TypeScript
+- Angular
+- Bootstrap Framework: https://getbootstrap.com/
+- Swiper.js: https://swiperjs.com
+- Aos: https://michalsnik.github.io/aos/
+- https://fonts.google.com/ (Roboto)
+- https://icon-sets.iconify.design/
+
+---------------------------------------------------------------------------------------------------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
