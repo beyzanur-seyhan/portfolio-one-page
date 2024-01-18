@@ -2,16 +2,16 @@
 
 ![View](https://raw.githubusercontent.com/beyzanur-seyhan/portfolio-one-page/static/static/readme-files/header.gif)
 
-This project is my first project in the "Front-End Developer" Bootcamp program within the scope of Hyper Front-End Developer organized by Tech Career for free.
+This project is my first project in the "Front-End Development with Angular Bootcamp" program within the scope of Hyper organized by Tech Career for free.
 
 This project is just a template and I have done the necessary editing.
 
 - The theme of this project is prepared before UI Kit template. ([Julia - One Page Portfolio HTML CSS Template](https://templatesjungle.gumroad.com/l/julia-onepage-portfolio))
-- Necessary actions have been made for a single page. (Home page)
+- Necessary actions have been made for a single page. 
 
-There are two sub-studies in this project, both static and Angular.
-- Browse to project with static file content
-- Browse to project with file content created with Angular
+## There are two sub-studies in this project, both static and Angular.
+- [Browse to project with static file content](https://github.com/beyzanur-seyhan/portfolio-one-page/tree/main/static)
+- [Browse to project with file content created with Angular](https://github.com/beyzanur-seyhan/portfolio-one-page/tree/main/angular)
 
 - [What I Learned](#what-i-learned)
 
