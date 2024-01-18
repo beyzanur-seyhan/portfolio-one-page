@@ -1,6 +1,6 @@
 # PORTFOLIO ONE PAGE 👩
 
-![View](https://raw.githubusercontent.com/beyzanur-seyhan/portfolio-one-page/static/static/readme-files/header.gif)
+![View](https://raw.githubusercontent.com/beyzanur-seyhan/portfolio-one-page/main/readme-files/header.gif)
 
 ## There are two sub-studies in this project, both static and Angular.:
 
@@ -53,14 +53,14 @@ Thanks to this study, I learned tools that I would never have thought of. These;
 ### Full Page
 
 <br>
-<img src="https://github.com/beyzanur-seyhan/portfolio-one-page/blob/static/static/readme-files/full-page.gif?raw=true">
+<img src="https://github.com/beyzanur-seyhan/portfolio-one-page/blob/main/readme-files/full-page.gif?raw=true">
 <br><br>
 
 ## Getting Started
 
 - Clone this repository with git clone
 
-![Clone-Repository](https://github.com/beyzanur-seyhan/portfolio-one-page/blob/static/static/readme-files/clone-repo.png?raw=true)
+![Clone-Repository](https://raw.githubusercontent.com/beyzanur-seyhan/portfolio-one-page/main/readme-files/clone-repo.png)
 
 <u>Type the following into the terminal:</u>
 
