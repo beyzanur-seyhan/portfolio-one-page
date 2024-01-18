@@ -45,7 +45,7 @@ Thanks to this study, I learned tools that I would never have thought of. These;
 - Bootstrap Framework: https://getbootstrap.com/
 - Swiper.js: https://swiperjs.com
 - Aos: https://michalsnik.github.io/aos/
-- https://fonts.google.com/
+- https://fonts.google.com/ (Roboto)
 - https://icon-sets.iconify.design/
 
 ## Parts From The Project
