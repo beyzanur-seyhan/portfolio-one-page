@@ -2,11 +2,10 @@
 
 ![View](https://raw.githubusercontent.com/beyzanur-seyhan/portfolio-one-page/static/static/readme-files/header.gif)
 
-## There are two sub-studies in this project, both static and Angular. 
-## 👇
+## There are two sub-studies in this project, both static and Angular.:
+
 - [Browse to project with static file content](https://github.com/beyzanur-seyhan/portfolio-one-page/tree/main/static)
 - [Browse to project with file content created with Angular](https://github.com/beyzanur-seyhan/portfolio-one-page/tree/main/angular)
-## 👆
 
 --------------------------------------------------------------------------------------------------------
 
