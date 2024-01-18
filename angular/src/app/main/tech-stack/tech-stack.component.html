@@ -1,0 +1,33 @@
+<section id="tech-stack" class="bg-text" data-text="03">
+  <div class="row justify-content-center mb-md-5">
+    <div class="col-lg-6" data-aos="fade-up">
+      <span class="text-muted text-uppercase">yüzdesel oranları</span>
+      <h2 class="display-1 txt-fx slide-up">Teknoloji Bilgileri</h2>
+      <p>
+        Kullandığım ve bildiğim teknolojilere göz atın. Bu alandaki hakimiyetimi
+        keşfedin.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6" *ngFor="let skillset of skillsets">
+      <div class="skill-chart py-md-4" data-aos="fade-up">
+        <ul class="skill-chart-list list-unstyled">
+          <li *ngFor="let skill of skillset">
+            <div class="chart-header d-flex justify-content-between">
+              <span class="skill-title">{{ skill.title }}</span>
+              <span class="percentage">{{ skill.percentage }}%</span>
+            </div>
+            <div class="chart-border">
+              <div
+                class="chart-percentage {{
+                  selectPercent(skill.percentage)
+                }}-percent"
+              ></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

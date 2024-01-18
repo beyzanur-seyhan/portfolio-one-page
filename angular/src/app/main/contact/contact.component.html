@@ -1,0 +1,97 @@
+<section id="contact" class="my-5 py-5 bg-text" data-text="05">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-6" data-aos="fade-up">
+        <span class="text-muted text-uppercase">bağlantı kurun</span>
+        <h2 class="display-1 txt-fx slide-up">İletişim</h2>
+        <p>
+          Sorularınız, önerileriniz veya işbirliği teklifleri için bana
+          kolaylıkla ulaşabilirsiniz
+        </p>
+      </div>
+    </div>
+    <div class="row d-flex g-5">
+      <div class="col-lg-7" data-aos="fade-up">
+        <h3>İletişim Bilgilerim</h3>
+        <div class="info-element py-4" data-aos="fade-up">
+          <table class="table">
+            <tbody>
+              <tr
+                class="table-cell"
+                *ngFor="let contactInfo of contactInformations"
+              >
+                <th class="table-field">{{ contactInfo.title }}</th>
+                <td class="table-field">
+                  <span *ngIf="contactInfo.description" class="text-break">{{
+                    contactInfo.description
+                  }}</span>
+                  <a
+                    class="text-break"
+                    *ngIf="contactInfo.link"
+                    href="{{
+                      contactInfo.link.includes('info@')
+                        ? 'mailto:'
+                        : 'https://'
+                    }}{{ contactInfo.link }}"
+                    target="{{
+                      !contactInfo.link.includes('info@') ? '_blank' : null
+                    }}"
+                    >{{ contactInfo.link }}</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="right-content" data-aos="fade-up">
+          <div class="element-header align-right">
+            <h3>Bana bir mesaj göndermekten çekinmeyin.</h3>
+          </div>
+
+          <div class="contact-form py-4">
+            <form
+              action="https://getform.io/f/8574dea7-4432-4b86-8261-72203603b1bc"
+              method="POST"
+              class="form-group"
+            >
+              <div class="pb-2">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Adınız - Soyadınız"
+                  class="form-control"
+                />
+              </div>
+              <div class="pb-2">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="E-Mail Adresiniz"
+                  class="form-control"
+                />
+              </div>
+              <div class="pb-2 form-message">
+                <input
+                  type="text"
+                  placeholder="Mesajınız"
+                  name="message"
+                  class="form-control"
+                />
+              </div>
+              <button
+                type="submit"
+                name="submit"
+                class="btn btn-dark w-100 btn-rounded"
+              >
+                Gönder
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

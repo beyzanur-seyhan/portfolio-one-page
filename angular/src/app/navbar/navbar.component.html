@@ -1,0 +1,31 @@
+<header id="header-nav" class="col-lg-2 position-fixed px-5 bg-white h-100">
+    <div class="header-wrap d-flex flex-column justify-content-between h-100">
+      <div class="navigation">
+        <div class="site-logo mt-5">
+          <a href="index.html">
+            <img src="../../assets/img/main-logo.svg" alt="logo" class="img-fluid">
+          </a>
+        </div>
+
+        <nav id="one-page-menu" class="vertical-menu my-5">
+          <ul class="menu-list list-unstyled">
+            <li *ngFor="let navbarItem of navbarItems" class="my-4"><a href="#{{navbarItem.href}}" class="nav-link">{{navbarItem.text}}</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="mt-5">
+        <div class="email-links">
+          <a href="mailto:info@beyzanurseyhan.com" class="py-3 my-3 border-bottom d-flex text-break">info&#64;beyzanurseyhan.com</a>
+        </div>
+        <ul class="list-unstyled d-flex justify-content-start flex-wrap gap-3">
+          <li *ngFor="let socialItem of socialItems">
+            <a href="https://{{socialItem.href}}" target="_blank" class="text-dark">
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <use [attr.xlink:href]="'#' + socialItem.name"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>

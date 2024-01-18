@@ -1,0 +1,7 @@
+input[name="message"] {
+    height: 100%;
+  }
+  
+  .form-message {
+    height: 100px;
+  }
