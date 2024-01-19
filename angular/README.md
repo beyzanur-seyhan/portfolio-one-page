@@ -16,7 +16,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Getting Started
 
-<b>If you downloaded or cloned the repository as zip, you need to complete the two steps below:</b>
+<b>If you downloaded or cloned the repository as zip, you need to complete the steps below:</b>
 
 - Open the file with visual studio (If not open)
 - After completing the first step, a window will appear. On the right or left side of this window you will see: ![image](https://github.com/beyzanur-seyhan/portfolio-one-page/assets/80166639/a176fd37-ef97-46be-8547-1fea9bf82b8f)
