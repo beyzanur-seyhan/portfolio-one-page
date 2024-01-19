@@ -16,7 +16,7 @@
 - Open the project folder and from there double-click the file named "static": <br /> ![image](https://github.com/beyzanur-seyhan/portfolio-one-page/assets/80166639/96f818f5-ed7d-4f5e-9c55-89946fda299e)
 - Later, when you are in the "static" folder, you will see the "index.html" file. Double click on this file or choose one of the different browser options as shown in the picture: <br /> <img src="https://github.com/beyzanur-seyhan/portfolio-one-page/assets/80166639/db18197e-5b43-4b59-a9c5-9ba48185e0cc" width=400 />
 
-<br />
+---------------------------------------------------------------------
 
 👉 <b> If you are using live server extension;</b>
 
