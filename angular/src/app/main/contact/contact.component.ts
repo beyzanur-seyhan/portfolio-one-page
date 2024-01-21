@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { ContactInformation } from './contact-information';
 
 @Component({
   selector: 'app-contact',
@@ -9,30 +10,30 @@ import { Component } from '@angular/core';
   styleUrl: './contact.component.css',
 })
 export class ContactComponent {
-  contactInformations: {
-    title: string;
-    link?: string;
-    description?: string;
-  }[] = [
+  contactInformations: ContactInformation[] = [
     {
       title: 'Adres',
       description: 'Nevşehir / Türkiye',
     },
     {
       title: 'E-mail',
-      link: 'info@beyzanurseyhan.com',
+      text: 'info@beyzanurseyhan.com',
+      link: 'mailto:info@beyzanurseyhan.com'
     },
     {
       title: 'Linkedin',
-      link: 'www.linkedin.com/in/beyzanurseyhan/',
+      text: 'linkedin.com/in/beyzanurseyhan',
+      link: 'https://www.linkedin.com/in/beyzanurseyhan/',
     },
     {
       title: 'Github',
-      link: 'github.com/beyzanur-seyhan',
+      text: 'github.com/beyzanur-seyhan',
+      link: 'https://github.com/beyzanur-seyhan',
     },
     {
       title: 'Twitter',
-      link: 'twitter.com/minikfreelancer',
+      text: 'twitter.com/minikfreelancer',
+      link: 'https://twitter.com/minikfreelancer',
     },
   ];
 }
