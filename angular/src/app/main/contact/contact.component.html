@@ -25,18 +25,7 @@
                   <span *ngIf="contactInfo.description" class="text-break">{{
                     contactInfo.description
                   }}</span>
-                  <a
-                    class="text-break"
-                    *ngIf="contactInfo.link"
-                    href="{{
-                      contactInfo.link.includes('info@')
-                        ? 'mailto:'
-                        : 'https://'
-                    }}{{ contactInfo.link }}"
-                    target="{{
-                      !contactInfo.link.includes('info@') ? '_blank' : null
-                    }}"
-                    >{{ contactInfo.link }}</a
+                  <a class="text-break" *ngIf="contactInfo.link" [href]="contactInfo.link" [target]="!contactInfo.link.includes('mailto') ? '_blank' : ''">{{ contactInfo.text }}</a
                   >
                 </td>
               </tr>
